@@ -20,7 +20,7 @@ public class RockPaperScissorsGame {
                 System.out.printf("Computer has chosen - %s.%n", computer);
                 findWinner(player, computer);// compare player's vs computer's choice
                 gamesPlayed++;
-                System.out.printf("Games played so far %d.%n", gamesPlayed);
+                System.out.printf("Games played so far %d.%n%n", gamesPlayed);
             }
             System.out.print("Please make your move ([r]ock, [p]aper, [s]cissors) or (stop) to end the game: ");
             playerMove = scan.nextLine();
